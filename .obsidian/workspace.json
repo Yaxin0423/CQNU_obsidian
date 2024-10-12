@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "7780eace898045f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f08ba8cc9ee081f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a46f2836d760009",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "欢迎.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "98392a8fe6d9727a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e6c4069a827933c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfd667363f798721",
+    "type": "split",
+    "children": [
+      {
+        "id": "b61be5fbd74edaeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0215a77215b6923e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9382fe8858cf5532",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb2bda7c2e929050",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "148dc7419206244d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fe438d13aaa6754",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1764d5cd8e961577",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a49a3a757da1b99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94780c68eb755fa6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "027de8ca81e9a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "8a46f2836d760009",
+  "lastOpenFiles": [
+    "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
+    "欢迎.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法",
+    "Optimization/op learning notes.canvas",
+    "Optimization/Descent Lemma.png",
+    "Optimization",
+    "IDC/贝塞尔函数.md",
+    "IDC/自动驾驶中的集成决策与控制.canvas",
+    "IDC/强化学习Actor-Critic模型.md",
+    "IDC/分解方法 Decomposed Scheme.md",
+    "IDC"
+  ]
+}
