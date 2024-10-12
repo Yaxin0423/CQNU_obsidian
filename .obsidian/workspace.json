@@ -11,11 +11,14 @@
             "id": "8a46f2836d760009",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Notion/CWB.md",
-                "mode": "source",
-                "source": false
+                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+                "viewState": {
+                  "x": 1210.5172138360838,
+                  "y": 2017.5971239505027,
+                  "zoom": -0.6666666666666667
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/CWB.md",
+                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/CWB.md",
+                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/CWB.md"
+                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas"
               }
             }
           },
@@ -142,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 443.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,10 +159,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0215a77215b6923e",
+  "active": "8a46f2836d760009",
   "lastOpenFiles": [
-    "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
     "Notion/CWB.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
     "Notion",
     "CWB.md",
     "Pasted image 20241012112908.png",
