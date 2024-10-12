@@ -13,24 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "欢迎.md",
+                "file": "Notion/CWB.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "98392a8fe6d9727a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6e6c4069a827933c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -83,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 208.5
   },
   "right": {
     "id": "148dc7419206244d",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
+                "file": "Notion/CWB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
+                "file": "Notion/CWB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md"
+                "file": "Notion/CWB.md"
               }
             }
+          },
+          {
+            "id": "6778db0a232e6776",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,18 +151,28 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a46f2836d760009",
+  "active": "0215a77215b6923e",
   "lastOpenFiles": [
+    "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+    "Notion/CWB.md",
+    "Notion",
+    "CWB.md",
+    "Pasted image 20241012112908.png",
+    "欢迎.md",
+    "创建链接.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md",
     "key/1.txt",
     "key/新建 文本文档.txt",
     "key",
     "新建文件夹",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
-    "欢迎.md",
     "凸近似避障原理及无人驾驶车辆路径规划算法",
     "Optimization/op learning notes.canvas",
     "Optimization/Descent Lemma.png",
