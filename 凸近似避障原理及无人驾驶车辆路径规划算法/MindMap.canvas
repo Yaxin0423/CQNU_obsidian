@@ -8,15 +8,19 @@
 		{"id":"eb08848c85945177","type":"text","text":"**人工势场法（APF）**：该方法是无人驾驶车辆局部路径规划中常用的一种方法。虽然APF具有快速计算路径的能力，但容易出现局部极小值问题，导致车辆陷入某些不可行路径。论文中的凸近似避障方法和模型预测控制（MPC）正是为了解决这类局部规划中的瓶颈问题。","x":740,"y":-550,"width":480,"height":150},
 		{"id":"6860fe3c7e1f0084","type":"text","text":"**栅格法（Grid Method）**：将空间划分为网格并进行路径搜索。虽然栅格法可以找到全局最优路径，但计算复杂度较高。论文提出的凸近似避障方法，通过选择关键的参考点来优化路径搜索区域，相比栅格法更具实时性优势。","x":740,"y":-210,"width":480,"height":110},
 		{"id":"bcc93df23876a643","type":"text","text":"**插值曲线法（Interpolation Curve Method）** 是一种用于路径规划的平滑路径生成技术。该方法使用数学曲线（如多项式曲线、B样条、贝塞尔曲线、回旋曲线等）将离散的路径点连接成连续的光滑曲线，以实现平稳的路径规划。","x":740,"y":-60,"width":480,"height":120},
-		{"id":"21f7f97be95c6578","type":"text","text":"Modelling","x":-137,"y":278,"width":139,"height":50},
-		{"id":"03e3a15b8c6de6c5","type":"file","file":"凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md","x":80,"y":-155,"width":500,"height":915},
-		{"id":"bdad824d559882c6","type":"file","file":"凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md","x":80,"y":870,"width":560,"height":660},
-		{"id":"3c7a53723768589d","type":"file","file":"凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md","x":720,"y":980,"width":560,"height":440},
-		{"id":"ecad89bd024866c1","type":"text","text":"Methodology","x":-160,"y":1170,"width":194,"height":60},
-		{"id":"2bf18e1ba5da3559","type":"text","text":"### 缩放系数 $\\mu_j$ 的几何意义\n1. **调整安全距离**：通过引入缩放系数 $\\mu_j$，可以扩大或缩小障碍物的边界。例如，将 $\\mu_j$ 设置为大于 1 的值，将增加障碍物的尺寸，使得可行域中的自车位置在更远的距离上避开障碍物。这种方式用于增加自车的安全裕度。如果 $\\mu_j < 1$，则障碍物的尺寸被缩小，可行域范围增大。\n   \n2. **形状的放大与缩小**：如果障碍物是由多个边界点（顶点）构成的凸多边形，缩放系数 $\\mu_j$ 可以对这些边界点进行比例放大或缩小，使得多边形边界向外或向内扩展。例如，对于障碍物边界点 $w_{j1}, \\dots, w_{js_j}$，其缩放后的顶点为 $\\mu_j w_{j1}, \\dots, \\mu_j w_{js_j}$。通过凸组合 $\\text{conv}\\{\\mu_j w_{j1}, \\dots, \\mu_j w_{js_j}\\}$ 表示放大或缩小后的凸多边形边界。\n   \n3. **可行域的动态调整**：缩放系数允许在不同的场景下调整可行域。例如，在高速行驶的场景下，可以使用较大的 $\\mu_j$ 来扩大障碍物，从而确保更大的避障距离。而在低速行驶或需要精确操作的场景下，可以使用较小的 $\\mu_j$，以缩小障碍物边界并允许更紧凑的可行域。","x":1360,"y":1000,"width":680,"height":400},
 		{"id":"5a4480eaa347b21a","type":"text","text":"基于凸近似的避障原理及无人驾驶车辆的路径规划模型预测算法","x":-1040,"y":700,"width":300,"height":60},
-		{"id":"232cc6aa20abe319","x":-220,"y":1920,"width":280,"height":80,"type":"text","text":"模型预测控制（MPC） 方法的路径规划目标函数的组成部分"},
-		{"id":"95ad2cfd0e05ec0f","x":520,"y":1820,"width":700,"height":300,"type":"text","text":"- **损失函数**：损失函数（也称为目标函数或代价函数）是用来衡量系统性能或控制策略好坏的指标。它表示偏离期望目标的程度。在路径规划和控制中，损失函数用于表示各种指标（如偏离路径的距离、转向角的稳定性、加速度平稳性等）对于车辆行驶的偏差。优化问题的目标是最小化这些损失函数。\n\n- **权重系数**（有时称为权重函数）：在多目标优化问题中，每个损失函数前通常会乘以一个权重系数。这些权重系数用于控制各个损失函数在总目标函数中的重要性。权重系数并不是损失函数本身，而是对每个损失函数施加的系数，以便根据具体应用调整每个损失函数对总目标的影响程度。\n\n在公式中：\n\n$$f_{\\text{total}} = k_1 f_1 + k_2 f_2 + \\dots + k_n f_n$$\n\n这里的  $f_1, f_2, \\dots, f_n$ 是不同的损失函数，而 $k_1, k_2, \\dots, k_n$是相应的权重系数。优化过程是通过最小化这个总的目标函数 $f_{\\text{total}}$ 来实现的。\n\n### 总结\n在你的例子中，**损失函数**指的是各个子项（如偏移量损失函数、稳定性损失函数等），它们衡量特定指标的偏差。而**权重系数**是施加在这些损失函数前的乘数，用于调整各个损失函数在最终目标函数中的相对重要性。"}
+		{"id":"21f7f97be95c6578","type":"text","text":"Modelling","x":-117,"y":127,"width":139,"height":50},
+		{"id":"03e3a15b8c6de6c5","type":"file","file":"凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md","x":100,"y":-155,"width":500,"height":615},
+		{"id":"b578fd1637a323c7","type":"text","text":"离散化模型：用于 MPC 预测未来的车辆状态信息[[Modelling]]","x":276,"y":1230,"width":360,"height":60},
+		{"id":"dfb253e822d8f928","type":"text","text":"目标函数：七个权重函数的寻优二次规划问题 ","x":-40,"y":1333,"width":180,"height":105},
+		{"id":"232cc6aa20abe319","type":"text","text":"模型预测控制（MPC） 方法的路径规划目标函数的组成部分","x":-364,"y":1345,"width":280,"height":80},
+		{"id":"2baccf76eb6cd191","type":"text","text":"车辆/道路约束条件","x":276,"y":1400,"width":200,"height":50},
+		{"id":"33a518786074106b","type":"text","text":"可行域计算方法：基于凸近似避障原理的不等式[[Methodology]]","x":276,"y":1470,"width":360,"height":60},
+		{"id":"439ad8c44b4e4665","type":"text","text":"$\\delta_{f}(t+k)=\\delta_{f}\\left(t+N_{\\mu}-1\\right), \\quad k=N_{\\mu}, \\cdots, N$","x":276,"y":1310,"width":360,"height":65},
+		{"id":"bdad824d559882c6","type":"file","file":"凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md","x":96,"y":520,"width":560,"height":660},
+		{"id":"ecad89bd024866c1","type":"text","text":"Methodology","x":-144,"y":820,"width":194,"height":60},
+		{"id":"95ad2cfd0e05ec0f","type":"text","text":"- **损失函数**：损失函数（也称为目标函数或代价函数）是用来衡量系统性能或控制策略好坏的指标。它表示偏离期望目标的程度。在路径规划和控制中，损失函数用于表示各种指标（如偏离路径的距离、转向角的稳定性、加速度平稳性等）对于车辆行驶的偏差。优化问题的目标是最小化这些损失函数。\n\n- **权重系数**（有时称为权重函数）：在多目标优化问题中，每个损失函数前通常会乘以一个权重系数。这些权重系数用于控制各个损失函数在总目标函数中的重要性。权重系数并不是损失函数本身，而是对每个损失函数施加的系数，以便根据具体应用调整每个损失函数对总目标的影响程度。\n\n在公式中：\n\n$$f_{\\text{total}} = k_1 f_1 + k_2 f_2 + \\dots + k_n f_n$$\n\n这里的  $f_1, f_2, \\dots, f_n$ 是不同的损失函数，而 $k_1, k_2, \\dots, k_n$是相应的权重系数。优化过程是通过最小化这个总的目标函数 $f_{\\text{total}}$ 来实现的。\n\n### 总结\n在你的例子中，**损失函数**指的是各个子项（如偏移量损失函数、稳定性损失函数等），它们衡量特定指标的偏差。而**权重系数**是施加在这些损失函数前的乘数，用于调整各个损失函数在最终目标函数中的相对重要性。","x":916,"y":1170,"width":700,"height":300},
+		{"id":"2bf18e1ba5da3559","type":"text","text":"### 缩放系数 $\\mu_j$ 的几何意义\n1. **调整安全距离**：通过引入缩放系数 $\\mu_j$，可以扩大或缩小障碍物的边界。例如，将 $\\mu_j$ 设置为大于 1 的值，将增加障碍物的尺寸，使得可行域中的自车位置在更远的距离上避开障碍物。这种方式用于增加自车的安全裕度。如果 $\\mu_j < 1$，则障碍物的尺寸被缩小，可行域范围增大。\n   \n2. **形状的放大与缩小**：如果障碍物是由多个边界点（顶点）构成的凸多边形，缩放系数 $\\mu_j$ 可以对这些边界点进行比例放大或缩小，使得多边形边界向外或向内扩展。例如，对于障碍物边界点 $w_{j1}, \\dots, w_{js_j}$，其缩放后的顶点为 $\\mu_j w_{j1}, \\dots, \\mu_j w_{js_j}$。通过凸组合 $\\text{conv}\\{\\mu_j w_{j1}, \\dots, \\mu_j w_{js_j}\\}$ 表示放大或缩小后的凸多边形边界。\n   \n3. **可行域的动态调整**：缩放系数允许在不同的场景下调整可行域。例如，在高速行驶的场景下，可以使用较大的 $\\mu_j$ 来扩大障碍物，从而确保更大的避障距离。而在低速行驶或需要精确操作的场景下，可以使用较小的 $\\mu_j$，以缩小障碍物边界并允许更紧凑的可行域。","x":736,"y":650,"width":680,"height":400}
 	],
 	"edges":[
 		{"id":"4ee74c3d39c4acae","fromNode":"5a4480eaa347b21a","fromSide":"right","toNode":"f8afde174be3fb1e","toSide":"left"},
@@ -30,8 +34,13 @@
 		{"id":"e86ee7ee7e3c73d7","fromNode":"21f7f97be95c6578","fromSide":"right","toNode":"03e3a15b8c6de6c5","toSide":"left"},
 		{"id":"2d78f563bd735fc3","fromNode":"5a4480eaa347b21a","fromSide":"right","toNode":"21f7f97be95c6578","toSide":"left"},
 		{"id":"c464520c94a365f2","fromNode":"ecad89bd024866c1","fromSide":"right","toNode":"bdad824d559882c6","toSide":"left"},
-		{"id":"36915d82fe9d245e","fromNode":"bdad824d559882c6","fromSide":"right","toNode":"3c7a53723768589d","toSide":"left"},
-		{"id":"8ec8e0a47593932d","fromNode":"3c7a53723768589d","fromSide":"right","toNode":"2bf18e1ba5da3559","toSide":"left"},
-		{"id":"651126a0da324cc7","fromNode":"5a4480eaa347b21a","fromSide":"right","toNode":"ecad89bd024866c1","toSide":"left"}
+		{"id":"651126a0da324cc7","fromNode":"5a4480eaa347b21a","fromSide":"right","toNode":"ecad89bd024866c1","toSide":"left"},
+		{"id":"b605a28882af4e19","fromNode":"232cc6aa20abe319","fromSide":"right","toNode":"dfb253e822d8f928","toSide":"left"},
+		{"id":"0082dfc024d5b8a2","fromNode":"dfb253e822d8f928","fromSide":"right","toNode":"2baccf76eb6cd191","toSide":"left"},
+		{"id":"5068bd707b47e652","fromNode":"dfb253e822d8f928","fromSide":"right","toNode":"b578fd1637a323c7","toSide":"left"},
+		{"id":"faf704b693851dd4","fromNode":"dfb253e822d8f928","fromSide":"right","toNode":"33a518786074106b","toSide":"left"},
+		{"id":"2422b14dcbdd18c2","fromNode":"dfb253e822d8f928","fromSide":"right","toNode":"439ad8c44b4e4665","toSide":"left"},
+		{"id":"34c3edeee653a898","fromNode":"bdad824d559882c6","fromSide":"right","toNode":"2bf18e1ba5da3559","toSide":"left"},
+		{"id":"9a5208ee57340bfa","fromNode":"5a4480eaa347b21a","fromSide":"right","toNode":"232cc6aa20abe319","toSide":"left"}
 	]
 }

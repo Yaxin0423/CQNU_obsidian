@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8f08ba8cc9ee081f",
+        "id": "b848acd8c35f2695",
         "type": "tabs",
         "children": [
           {
-            "id": "8a46f2836d760009",
+            "id": "a729436539bbae2f",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
                 "viewState": {
-                  "x": 1210.5172138360838,
-                  "y": 2017.5971239505027,
-                  "zoom": -0.6666666666666667
+                  "x": 572.1172127741992,
+                  "y": 1469.9570109318993,
+                  "zoom": -0.5032583347756463
                 }
               }
             }
@@ -159,19 +159,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a46f2836d760009",
+  "active": "a729436539bbae2f",
   "lastOpenFiles": [
-    "Notion/CWB.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/SQP序列二次规划.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md",
     "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
+    "凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md",
+    "Notion/CWB.md",
     "Notion",
     "CWB.md",
     "Pasted image 20241012112908.png",
     "欢迎.md",
     "创建链接.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md",
     "key/1.txt",
     "key/新建 文本文档.txt",
     "key",
