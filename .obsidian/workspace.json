@@ -13,16 +13,29 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+                "file": "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
                 "viewState": {
-                  "x": 572.1172127741992,
-                  "y": 1469.9570109318993,
-                  "zoom": -0.5032583347756463
+                  "x": 857.1530335601565,
+                  "y": 860.2197506089753,
+                  "zoom": -1.1699250014423128
                 }
               }
             }
+          },
+          {
+            "id": "740c929a26c8d7a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,12 +80,21 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "e9d437f4586f23e5",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 224.5
   },
   "right": {
     "id": "148dc7419206244d",
@@ -88,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas"
+                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md"
               }
             }
           },
@@ -145,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,15 +181,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a729436539bbae2f",
+  "active": "740c929a26c8d7a7",
   "lastOpenFiles": [
-    "凸近似避障原理及无人驾驶车辆路径规划算法/SQP序列二次规划.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
-    "凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md",
-    "Notion/CWB.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+    "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
+    "Vault.md",
+    "论文/IDC/算法一.png",
+    "Tags",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/SQP序列二次规划.md",
+    "论文/IDC/分解方法 Decomposed Scheme.md",
+    "论文/IDC/贝塞尔函数.md",
+    "论文/IDC/强化学习Actor-Critic模型.md",
+    "论文/IDC/自动驾驶中的集成决策与控制.canvas",
+    "论文/轨迹跟踪最优控制模型的几种改进策略.md",
+    "论文",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md",
     "Notion",
     "CWB.md",
     "Pasted image 20241012112908.png",
@@ -177,14 +208,10 @@
     "key/新建 文本文档.txt",
     "key",
     "新建文件夹",
-    "凸近似避障原理及无人驾驶车辆路径规划算法",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法",
     "Optimization/op learning notes.canvas",
     "Optimization/Descent Lemma.png",
     "Optimization",
-    "IDC/贝塞尔函数.md",
-    "IDC/自动驾驶中的集成决策与控制.canvas",
-    "IDC/强化学习Actor-Critic模型.md",
-    "IDC/分解方法 Decomposed Scheme.md",
-    "IDC"
+    "论文/IDC"
   ]
 }

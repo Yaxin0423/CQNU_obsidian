@@ -1,4 +1,6 @@
 [
   "obsidian-importer",
-  "obsidian-git"
+  "obsidian-git",
+  "editing-toolbar",
+  "make-md"
 ]
