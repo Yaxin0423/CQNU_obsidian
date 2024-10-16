@@ -1,6 +1,9 @@
 [
   "obsidian-importer",
   "obsidian-git",
-  "editing-toolbar",
-  "make-md"
+  "highlightr-plugin",
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "make-md",
+  "editing-toolbar"
 ]

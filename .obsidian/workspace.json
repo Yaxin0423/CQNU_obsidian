@@ -4,38 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b848acd8c35f2695",
+        "id": "9cca7c7594f062c7",
         "type": "tabs",
         "children": [
           {
-            "id": "a729436539bbae2f",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
-                "viewState": {
-                  "x": 857.1530335601565,
-                  "y": 860.2197506089753,
-                  "zoom": -1.1699250014423128
-                }
-              }
-            }
-          },
-          {
-            "id": "740c929a26c8d7a7",
+            "id": "863919c3054b28be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
+                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +66,7 @@
             }
           },
           {
-            "id": "e9d437f4586f23e5",
+            "id": "dbfb608afae220eb",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
+                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
+                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文/IDC/2021 Integrated Decision and Control_GuanYang.md"
+                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md"
               }
             }
           },
@@ -178,12 +162,28 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "740c929a26c8d7a7",
+  "active": "863919c3054b28be",
   "lastOpenFiles": [
+    "Pasted image 20241016164927.png",
+    "自动驾驶/清华交付材料.md",
+    "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
+    "自动驾驶/自动驾驶.md",
+    "自动驾驶/绩效评估/绩效评估.md",
+    "自动驾驶/绩效评估/代码简介与使用说明.pdf",
+    "Optimization/op learning notes.canvas",
+    "欢迎.md",
+    "Highlights for 代码简介与使用说明.md",
+    "Excalidraw/Drawing 2024-10-16 15.10.33.excalidraw.md",
+    "Excalidraw",
+    "自动驾驶/绩效评估",
     "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+    "自动驾驶",
+    "未命名.md",
     "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
     "Vault.md",
     "论文/IDC/算法一.png",
@@ -202,16 +202,10 @@
     "Notion",
     "CWB.md",
     "Pasted image 20241012112908.png",
-    "欢迎.md",
     "创建链接.md",
     "key/1.txt",
     "key/新建 文本文档.txt",
     "key",
-    "新建文件夹",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法",
-    "Optimization/op learning notes.canvas",
-    "Optimization/Descent Lemma.png",
-    "Optimization",
-    "论文/IDC"
+    "Optimization/Descent Lemma.png"
   ]
 }

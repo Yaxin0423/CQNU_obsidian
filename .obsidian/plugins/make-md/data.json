@@ -45,9 +45,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Tags",
-    "//论文",
-    "//论文/论文/IDC"
+    "//自动驾驶/自动驾驶/绩效评估",
+    "//Excalidraw",
+    "//Optimization",
+    "//论文"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
