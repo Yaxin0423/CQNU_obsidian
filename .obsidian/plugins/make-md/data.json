@@ -45,10 +45,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//自动驾驶/自动驾驶/绩效评估",
     "//Excalidraw",
-    "//Optimization",
-    "//论文"
+    "//论文",
+    "//自动驾驶",
+    "//自动驾驶/自动驾驶/绩效评估"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

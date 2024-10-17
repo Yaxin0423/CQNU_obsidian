@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
+                "file": "自动驾驶/集成式决控技术.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
+                "file": "自动驾驶/集成式决控技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
+                "file": "自动驾驶/集成式决控技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md"
+                "file": "自动驾驶/集成式决控技术.md"
               }
             }
           },
@@ -163,17 +163,17 @@
       "command-palette:打开命令面板": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "863919c3054b28be",
   "lastOpenFiles": [
-    "Pasted image 20241016164927.png",
     "自动驾驶/清华交付材料.md",
-    "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
-    "自动驾驶/自动驾驶.md",
+    "自动驾驶/集成式决控技术.md",
     "自动驾驶/绩效评估/绩效评估.md",
+    "自动驾驶/自动驾驶.md",
+    "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
+    "Pasted image 20241016164927.png",
     "自动驾驶/绩效评估/代码简介与使用说明.pdf",
     "Optimization/op learning notes.canvas",
     "欢迎.md",
