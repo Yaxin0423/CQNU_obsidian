@@ -46,9 +46,9 @@
   "expandedSpaces": [
     "/",
     "//Excalidraw",
-    "//论文",
     "//自动驾驶/自动驾驶/绩效评估",
-    "//论文/论文/凸近似避障原理及无人驾驶车辆路径规划算法"
+    "//论文/论文/凸近似避障原理及无人驾驶车辆路径规划算法",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

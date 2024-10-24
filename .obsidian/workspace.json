@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Q&A.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q&A"
+              "title": "未命名"
             }
           }
         ]
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "7372700ce5dd7389",
+            "id": "565a6216879febaf",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -188,8 +188,9 @@
   },
   "active": "863919c3054b28be",
   "lastOpenFiles": [
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/处理动态障碍物的情况.md",
+    "未命名.md",
     "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Q&A.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/处理动态障碍物的情况.md",
     "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
     "论文/凸近似避障原理及无人驾驶车辆路径规划算法/凸近似的避障原理创新点.md",
     "自动驾驶/清华交付材料.md",
@@ -206,7 +207,6 @@
     "Excalidraw",
     "自动驾驶/绩效评估",
     "自动驾驶",
-    "未命名.md",
     "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
     "Vault.md",
     "论文/IDC/算法一.png",
