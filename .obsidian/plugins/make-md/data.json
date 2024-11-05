@@ -44,11 +44,16 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
-    "//Excalidraw",
     "//自动驾驶/自动驾驶/绩效评估",
+    "//Tags",
+    "/",
+    "//other notes",
+    "//盘点英研申请踩的坑",
+    "//My notes/My notes/留学号",
+    "//自动驾驶",
+    "//论文",
     "//论文/论文/凸近似避障原理及无人驾驶车辆路径规划算法",
-    "//Tags"
+    "//论文/论文/凸近似避障原理及无人驾驶车辆路径规划算法/论文/凸近似避障原理及无人驾驶车辆路径规划算法/图片"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

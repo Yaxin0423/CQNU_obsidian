@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9cca7c7594f062c7",
+        "id": "b0e63e3e03fe10ca",
         "type": "tabs",
         "children": [
           {
-            "id": "863919c3054b28be",
+            "id": "95f112de8c3bc0a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
+                "file": "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+                "viewState": {
+                  "x": 552.7425150341862,
+                  "y": 211.90868501129975,
+                  "zoom": -2.399047413785021
+                }
               },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "icon": "lucide-layout-dashboard",
+              "title": "MindMap"
             }
           }
         ]
@@ -74,7 +77,7 @@
             }
           },
           {
-            "id": "565a6216879febaf",
+            "id": "5cc75058accd0e15",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -88,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 333.5110321044922
   },
   "right": {
     "id": "148dc7419206244d",
@@ -186,49 +189,50 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "863919c3054b28be",
+  "active": "95f112de8c3bc0a0",
   "lastOpenFiles": [
-    "未命名.md",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Q&A.md",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/处理动态障碍物的情况.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/把权重函数的布尔变量松弛到连续空间.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/7个权重函数.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/图片/4.1.1 路径最短.png",
+    "7个权重函数.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/凸近似避障原理及无人驾驶车辆路径规划算法.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/图片/图片.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/图片",
     "论文/凸近似避障原理及无人驾驶车辆路径规划算法/MindMap.canvas",
+    "论文/轨迹跟踪最优控制模型的几种改进策略.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/预测控制--MPC的基本原理.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/可行域计算方法之定理的几何意义解释.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/可行域的计算方法.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/现有模型的约束.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/处理动态障碍物的情况.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/离散化模型.md",
     "论文/凸近似避障原理及无人驾驶车辆路径规划算法/凸近似的避障原理创新点.md",
-    "自动驾驶/清华交付材料.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Q&A.md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/).md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/[[论文凸近似避障原理及无人驾驶车辆路径规划算法).md )]].md",
+    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/SQP序列二次规划.md",
+    "自动驾驶/代码汇总.md",
+    "My notes/留学号/花了两万六，一等学位错失梦校ucl.md",
+    "My notes/留学号/留学号.md",
+    "My notes/留学号",
+    "My notes/未命名 1.md",
+    "My notes/留学号/3.1分享.md",
+    "other notes/.md",
+    "My notes/xiaoyang.md",
+    "Excalidraw/Excalidraw.md",
+    "My notes",
+    "Tags",
     "Pasted image 20241016164927.png",
-    "自动驾驶/集成式决控技术.md",
-    "论文/2021 Model-Based Constrained REindorcement Learning using Generalized Control Barrier Function.md",
-    "自动驾驶/绩效评估/绩效评估.md",
-    "自动驾驶/自动驾驶.md",
     "自动驾驶/绩效评估/代码简介与使用说明.pdf",
     "Optimization/op learning notes.canvas",
-    "欢迎.md",
-    "Highlights for 代码简介与使用说明.md",
-    "Excalidraw/Drawing 2024-10-16 15.10.33.excalidraw.md",
     "Excalidraw",
     "自动驾驶/绩效评估",
     "自动驾驶",
-    "论文/IDC/2021 Integrated Decision and Control_GuanYang.md",
-    "Vault.md",
     "论文/IDC/算法一.png",
-    "Tags",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Modelling.md",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/SQP序列二次规划.md",
-    "论文/IDC/分解方法 Decomposed Scheme.md",
-    "论文/IDC/贝塞尔函数.md",
-    "论文/IDC/强化学习Actor-Critic模型.md",
     "论文/IDC/自动驾驶中的集成决策与控制.canvas",
-    "论文/轨迹跟踪最优控制模型的几种改进策略.md",
     "论文",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Background.md",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Methodology.md",
-    "论文/凸近似避障原理及无人驾驶车辆路径规划算法/Example for Methodology.md",
     "Notion",
-    "CWB.md",
     "Pasted image 20241012112908.png",
-    "创建链接.md",
-    "key/1.txt",
-    "key/新建 文本文档.txt",
-    "key",
     "Optimization/Descent Lemma.png"
   ]
 }
